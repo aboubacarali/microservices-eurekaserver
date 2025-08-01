@@ -15,7 +15,7 @@ RUN mvn package -DskipTests
 
 
 # ----- STAGE 2: Runtime -----
-FROM eclipse-temurin:21-jre-focal
+FROM eclipse-temurin:21-jre
 
 WORKDIR /app
 
